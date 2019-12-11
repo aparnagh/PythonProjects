@@ -57,8 +57,8 @@ def dataFrameFromDirectory(path, classification):
 data = DataFrame({'message': [], 'class': []})
 
 #Including the email details with the spam/ham classification in the dataframe
-data = data.append(dataFrameFromDirectory('C:/Users/aparn/Downloads/full/spam', 'spam'))
-data = data.append(dataFrameFromDirectory('C:/Users/aparn/Downloads/full/ham', 'ham'))
+data = data.append(dataFrameFromDirectory("<enter absolute file path>", 'spam'))
+data = data.append(dataFrameFromDirectory("<enter absolute file path>", 'ham'))
 #TODO5: lookup the documentation of Dataframe: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html
 # and print the content of the data frames.
 
@@ -107,7 +107,7 @@ def readEmailFile(path):
             f.close()
 
 
-readEmailFile('C:/Users/aparn/Downloads/full/emails')
+readEmailFile("<enter absolute file path>")
 print(arrayOfMessage)
 sample = arrayOfMessage
 #transform this list into a table of word frequencies.
