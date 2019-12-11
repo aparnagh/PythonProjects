@@ -1,0 +1,6 @@
+Modules included in src Folder:
+1. Algorithms_Pt1 and Algorithmns_Pt2: Working through some common algorithmic problems
+2. BasicCalculator: Creation of a very basic calculator (work in progress....to create more operations, add complexity and add GUI)
+3. DNS_Lookup: Given a list of URL's in a textfile, this will return the respective IP adrress for each given URL
+4. IPAddressPlotting: Given a URL, the code will find all the IP Addresses associated with that URL and plot them on a map using gmplot
+5. SpamOrNot: Given a file of emails, the code will return the probability of the email being a spam email or not
