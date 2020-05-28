@@ -11,7 +11,7 @@ def log_base_2(number: float) -> str:
     @return str: A string description of the approximate result
     """ 
     i = 0
-    j = False
+    j = True
     while j:
         if (number >= 1.0):
             if (pow(2, i) > number):
