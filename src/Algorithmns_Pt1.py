@@ -1,6 +1,6 @@
 '''
 Created on Oct 14, 2019
-
+THIS IS TO TEST GIT
 @author: Aparna Ganesh
 '''
 
@@ -11,7 +11,7 @@ def log_base_2(number: float) -> str:
     @return str: A string description of the approximate result
     """ 
     i = 0
-    j = True
+    j = False
     while j:
         if (number >= 1.0):
             if (pow(2, i) > number):
